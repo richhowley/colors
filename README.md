@@ -25,3 +25,5 @@ When a valid tag is read its index in the tag array is used to play the correct 
 As audio is playing the LEDs are lit in animated patterns.  An animation class handles the LEDs while the main loop monitors the progress of the audio playback and volume pot changes.  
 
 The animation class is designed so that the calling code sets the desired color for the animations, tells it to begin and end animations and regularly calls an update method.  Inside the class the code selects animation sequences at random and switches sequences at regular intervals.  Everything works based on the internal timer so the main loop can be responsive to track playback and volume control.
+
+![nordingreen](https://user-images.githubusercontent.com/318132/81127657-eace7580-8f0c-11ea-9f6f-8cd5601da396.jpg)
